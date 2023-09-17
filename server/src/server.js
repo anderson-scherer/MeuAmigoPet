@@ -6,7 +6,7 @@ require('dotenv').config();
 
 
 app.use(express.static('public'));
-app.use(bodyParser.json());
+app.use(bodyParser.json({ type: 'application/*+json' }))
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -17,16 +17,31 @@ var corsOptions = {
 }
 app.use(cors(corsOptions))
 
-app.get('/usuario', function (req, res) {
-   fs.readFile(`${__dirname}/${process.env.MOCK_FILE}`, function (err, data) {
+app.get('/usuarios', function (req, res) {
+   fs.readFile(`${__dirname}/${process.env.MOCK_FILE_USER}`, function (err, data) {
       res.end(data);
    });
 });
 
-app.post('/usuario', function (req, res) {
+app.post('/usuarios', function (req, res) {
    console.log('gravando dados do usuário');
    const usrData = req.body;
-   fs.writeFile(`${__dirname}/${process.env.MOCK_FILE}`,
+   fs.writeFile(`${__dirname}/${process.env.MOCK_FILE_USER}`,
+      JSON.stringify(usrData), function (err) { 
+      });
+   res.end("{ \"msg\": \"OK\" }");
+});
+
+app.get('/animais-resgatados', function (req, res) {
+   fs.readFile(`${__dirname}/${process.env.MOCK_FILE_PETS}`, function (err, data) {
+      res.end(data);
+   });
+});
+
+app.post('/animais-resgatados', function (req, res) {
+   console.log('gravando dados do usuário');
+   const usrData = req.body;
+   fs.writeFile(`${__dirname}/${process.env.MOCK_FILE_PETS}`,
       JSON.stringify(usrData), function (err) { 
       });
    res.end("{ \"msg\": \"OK\" }");

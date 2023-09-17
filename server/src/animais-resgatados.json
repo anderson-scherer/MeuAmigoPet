@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "nome_pet": "Bolinha",
+      "tipo": "cachorro",
+      "raca": "Vira-lata",
+      "local_encontrado": "Rua Principal, Bairro X",
+      "descricao": "Cachorro de porte médio, pelo curto e amigável.",
+      "cuidado_especial": "Precisa de cuidados com a pele devido a alergias.",
+      "idade_aparente": "2 anos"
+    },
+    {
+      "id": 2,
+      "nome_pet": "Frajola",
+      "tipo": "gato",
+      "raca": "Siamês",
+      "local_encontrado": "Pracinha do Bairro Y",
+      "descricao": "Gato siamês de pelagem clara, olhos azuis, dócil e brincalhão.",
+      "cuidado_especial": "Requer alimentação especial devido a problemas gastrointestinais.",
+      "idade_aparente": "1 ano"
+    },
+    {
+      "id": 3,
+      "nome_pet": "Fiona",
+      "tipo": "cachorro",
+      "raca": "Poodle",
+      "local_encontrado": "Avenida Central, Bairro Z",
+      "descricao": "Cachorro de pequeno porte, pelo encaracolado, muito carinhoso.",
+      "cuidado_especial": "Precisa de medicação diária para controle de ansiedade.",
+      "idade_aparente": "4 anos"
+    },
+    {
+      "id": 4,
+      "nome_pet": "Mingau",
+      "tipo": "gato",
+      "raca": "Sem raça definida",
+      "local_encontrado": "Rua dos Gatos, Bairro W",
+      "descricao": "Gato de pelagem tricolor, brincalhão e adora carinho.",
+      "cuidado_especial": "Necessita de cuidados dentários regularmente.",
+      "idade_aparente": "2 anos"
+    },
+    {
+      "id": 5,
+      "nome_pet": "Thor",
+      "tipo": "cachorro",
+      "raca": "Labrador Retriever",
+      "local_encontrado": "Praça da Cidade A",
+      "descricao": "Labrador de porte grande, dócil e muito brincalhão.",
+      "cuidado_especial": "Precisa de atividades físicas regulares devido ao porte.",
+      "idade_aparente": "3 anos"
+    },
+    {
+      "id": 6,
+      "nome_pet": "Luna",
+      "tipo": "gato",
+      "raca": "Maine Coon",
+      "local_encontrado": "Rua dos Coons, Bairro V",
+      "descricao": "Gato de porte grande, pelagem exuberante, carinhoso e calmo.",
+      "cuidado_especial": "Alimentação especial para controle de peso.",
+      "idade_aparente": "5 anos"
+    },
+    {
+      "id": 7,
+      "nome_pet": "Rex",
+      "tipo": "cachorro",
+      "raca": "Bulldog Inglês",
+      "local_encontrado": "Praia do Litoral Sul",
+      "descricao": "Bulldog inglês, porte médio, dócil e amigável.",
+      "cuidado_especial": "Necessita de cuidados respiratórios devido ao focinho curto.",
+      "idade_aparente": "4 anos"
+    },
+    {
+      "id": 8,
+      "nome_pet": "Chiquinho",
+      "tipo": "cachorro",
+      "raca": "Pinscher",
+      "local_encontrado": "Rua da Praça, Bairro K",
+      "descricao": "Pinscher miniatura, pequeno porte, ativo e alerta.",
+      "cuidado_especial": "Adequação na alimentação devido ao porte pequeno.",
+      "idade_aparente": "6 anos"
+    },
+    {
+      "id": 9,
+      "nome_pet": "Branquinha",
+      "tipo": "gato",
+      "raca": "Persa",
+      "local_encontrado": "Rua dos Persas, Bairro L",
+      "descricao": "Gata persa de pelagem branca e olhos azuis, tranquila e afetuosa.",
+      "cuidado_especial": "Manutenção da pelagem diária para evitar nós.",
+      "idade_aparente": "3 anos"
+    },
+    {
+      "id": 10,
+      "nome_pet": "Ziggy",
+      "tipo": "cachorro",
+      "raca": "Schnauzer",
+      "local_encontrado": "Rua dos Schnauzers, Bairro M",
+      "descricao": "Schnauzer miniatura, pelo duro, brincalhão e amigável.",
+      "cuidado_especial": "Manutenção do pelo e cuidados com os olhos.",
+      "idade_aparente": "7 anos"
+    }
+  ]
