@@ -8,23 +8,11 @@ $ npm start
 ````
 
 ## Executando Server de dados
-### Primeira execução
-````
-$ cd server > npm run start:first-access
-````
-
-### Demais execuções
 ````
 $ cd server > npm run start
 ````
 
 ## Executando Ionic App
-### Primeira execução
 ````
-$ cd meu-amigo-pet > npm run start:first-access
-````
-
-### Demais execuções
-````
-$ cd meu-amigo-pet  > npm run start
+$ cd meu-amigo-pet > npm run start
 ````
