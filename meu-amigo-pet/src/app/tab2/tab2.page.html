@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title size="mediun">Instituições | Pessoas cadastradas ({{ usuarios.length }})</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="mediun">Instituições | Pessoas cadastradas ({{ usuarios.length }})</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-row style="height: 20px"></ion-row>
+
+  <ion-segment (ionChange)="atualizarLista($event)" [(ngModel)]="tipoPessoa">
+    <ion-segment-button value="pessoa_juridica">
+      <ion-label>Pessoa Juridica</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="pessoa_fisica">
+      <ion-label>Pessoa Física</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <ion-row style="height: 20px"></ion-row>
+
+  <ion-list *ngFor="let usuario of usuarios">
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+      </ion-thumbnail>
+      <ion-label><strong>{{ usuario.nome}}</strong></ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

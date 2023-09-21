@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "nome": "João da Silva",
+    "telefone": "05199999999",
+    "endereco": "123 Rua Principal, Cidade, Estado",
+    "email": "joao@example.com",
+    "tipo": "pessoa_fisica",
+    "data_criacao": "2023-09-05T12:00:00Z",
+    "data_alteracao": "2023-09-05T15:30:00Z"
+  },
+  {
+    "id": "2",
+    "nome": "Mária da Silva",
+    "telefone": "05199999999",
+    "endereco": "456 Avenida Secundária, Cidade, Estado",
+    "email": "maria@example.com",
+    "tipo": "pessoa_fisica",
+    "data_criacao": "2023-09-06T10:15:00Z",
+    "data_alteracao": "2023-09-06T14:45:00Z"
+  },
+  {
+    "id": "3",
+    "nome": "Associação Amigos dos Animais",
+    "telefone": "05199999999",
+    "endereco": "456 Avenida Secundária, Cidade, Estado",
+    "email": "associacaoamigosdosanimais@example.com",
+    "tipo": "pessoa_juridica",
+    "data_criacao": "2023-09-06T10:15:00Z",
+    "data_alteracao": "2023-09-06T14:45:00Z"
+  },
+  {
+    "id": "4",
+    "nome": "José Santos",
+    "telefone": "05199999999",
+    "endereco": "789 Rua do Centro, Cidade, Estado",
+    "email": "jose@example.com",
+    "tipo": "pessoa_fisica",
+    "data_criacao": "2023-09-07T09:30:00Z",
+    "data_alteracao": "2023-09-07T12:45:00Z"
+  },
+  {
+    "id": "5",
+    "nome": "Instituto de Proteção Animal",
+    "telefone": "05199999999",
+    "endereco": "1010 Praça Principal, Cidade, Estado",
+    "email": "institutodeprotecaoanimal@example.com",
+    "tipo": "pessoa_juridica",
+    "data_criacao": "2023-09-07T10:45:00Z",
+    "data_alteracao": "2023-09-07T14:15:00Z"
+  }
+]
