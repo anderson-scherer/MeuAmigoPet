@@ -1,0 +1,32 @@
+{
+  "name": "meu-amigo-pet-server",
+  "version": "0.1.0",
+  "description": "Mock de dados para projeto",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anderson-scherer/MeuAmigoPet.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "server"
+  ],
+  "author": "scherer costa, anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderson-scherer/MeuAmigoPet/issues"
+  },
+  "homepage": "https://github.com/anderson-scherer/MeuAmigoPet#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security"
+  }
+}
